@@ -141,4 +141,15 @@ h1, h2, h3 {
     align-items: center;
   }
 
+  .fab {
+    font-family: "Font Awesome 5 Brands";
+    color: black;
+    font-size: 1.5em;
+  }
+
+  .fas{
+    color: black;
+    font-size: 1.5em;
+  }
+
 }
