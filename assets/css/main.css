@@ -4,38 +4,85 @@ h1, h2, h3 {
   color: #2d3c49;
 }
 
+.logo{
+  width: 25%;
+  border: none;
+}
+
+.header-container{
+  display: flex;
+  padding: 1em;
+}
+
+.header-left{
+  width: 50%;
+}
+
+.header-right{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: flex-end;
+  justify-content: center;
+  padding-right: .75em;
+}
+
+.project-name{
+  font-size: 1.50em;
+  text-align: center;
+  margin-top: .5em;
+}
+
+.featured{
+  font-size: 1.60em;
+
+  margin: 1.5em;
+}
+
+.project-link{
+  border: 1px solid #7d97ad;
+  border-radius: 2px;
+  padding: .75em;
+  margin: 1em;
+  color: #2d3c49;
+  text-decoration: none;
+}
+
+.link-wrapper{
+  display: flex;
+  justify-content: center;
+  margin: 0 1em 1em 1em;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  justify-content: center;
+}
+
+.center{
+  padding: 1.5em;
+  margin-bottom: 1em;
+}
+.fab {
+  font-family: "Font Awesome 5 Brands";
+  color: black
+}
+
+.fas{
+  color: black;
+}
+
 @media screen and (max-width: 360px) {
   img{
     width: 100%;
     border: .5px solid #2d3c49;
   }
 
-  .logo{
-    width: 25%;
-    border: none;
-  }
-
   h1{
     font-size: 1.75em;
     margin-bottom: .15em;
-  }
-
-  .header-right{
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    align-items: flex-end;
-    justify-content: center;
-    padding-right: .75em;
-  }
-
-  .header-container{
-    display: flex;
-    padding: 1em;
-  }
-
-  .header-left{
-    width: 50%;
   }
 
   span{
@@ -45,32 +92,53 @@ h1, h2, h3 {
     margin: 0 .75em .75em .75em;
     border-radius: 2px;
   }
+}
 
-  .featured{
-    font-size: 1.60em;
+@media screen and (min-width: 361px) and (max-width: 768px) {
 
-    margin: 1.5em;
+  .header-container{
+    display: flex;
+    padding: 1.5em;
   }
 
-  .project-name{
-    font-size: 1.50em;
-    text-align: center;
-    margin-top: .5em;
+  .profile-pic{
+    width: 100%;
+    border: .5px solid #2d3c49;
   }
 
-  a{
-    border: 1px solid #7d97ad;
+  .project-img{
+    width: 80%;
+  }
+
+  h1{
+    font-size: 3em;
+    margin-bottom: .15em;
+  }
+
+  h3{
+    font-size: 1.5em;
+  }
+
+  span{
+    border: 1.5px solid #7d97ad;
+    width: 95%;
+    display: flex;
+    margin: 0 .75em .75em .75em;
     border-radius: 2px;
-    padding: .75em;
-    margin: 1em;
-    color: #2d3c49;
-    text-decoration: none;
   }
 
+  .projects-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 
-  .link-wrapper{
+  .project-wrapper{
+    width: 50%;
     display: flex;
     justify-content: center;
-    margin: 0 1em 1em 1em;
+    flex-direction: column;
+    align-items: center;
   }
+
 }
