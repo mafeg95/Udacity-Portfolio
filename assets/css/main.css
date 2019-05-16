@@ -1,9 +1,11 @@
 h1,
 h2,
 h3 {
+  font: "Arial";
   font-family: sans-serif;
   color: #2d3c49;
 }
+
 
 p {
   width: 75%;
@@ -12,19 +14,23 @@ p {
   color: #2d3c49;
 }
 
+
 .logo {
   width: 25%;
   border: none;
 }
+
 
 .header-container {
   display: flex;
   padding: 1em;
 }
 
+
 .header-left {
   width: 50%;
 }
+
 
 .header-right {
   display: flex;
@@ -35,16 +41,19 @@ p {
   padding-right: .75em;
 }
 
+
 .project-name {
   font-size: 1.50em;
   text-align: center;
   margin-top: .5em;
 }
 
+
 .featured {
   font-size: 1.60em;
   margin: 1.5em;
 }
+
 
 .project-link {
   border: 1px solid #7d97ad;
@@ -55,11 +64,13 @@ p {
   text-decoration: none;
 }
 
+
 .link-wrapper {
   display: flex;
   justify-content: center;
   margin: 0 1em 1em 1em;
 }
+
 
 .icons {
   display: flex;
@@ -68,19 +79,23 @@ p {
   justify-content: center;
 }
 
+
 .center {
   padding: 1.5em;
   margin-bottom: 1em;
 }
+
 
 .fab {
   font-family: "Font Awesome 5 Brands";
   color: black
 }
 
+
 .fas {
   color: black;
 }
+
 
 @media screen and (max-width: 360px) {
   h1 {
@@ -88,10 +103,12 @@ p {
     margin-bottom: .15em;
   }
 
+
   h3 {
     font-size: .5em;
   }
 }
+
 
 @media screen and (max-width: 360px) {
   img {
@@ -99,10 +116,12 @@ p {
     border: .5px solid #2d3c49;
   }
 
+
   h1 {
     font-size: 1em;
     margin-bottom: .15em;
   }
+
 
   span {
     border: 1.5px solid #7d97ad;
@@ -113,29 +132,35 @@ p {
   }
 }
 
+
 @media screen and (min-width: 361px) and (max-width: 800px) {
   .header-container {
     display: flex;
     padding: 1.5em;
   }
 
+
   .profile-pic {
     width: 100%;
     border: .5px solid #2d3c49;
   }
 
+
   .project-img {
     width: 80%;
   }
+
 
   h1 {
     font-size: 1.75em;
     margin-bottom: .15em;
   }
 
+
   h3 {
     font-size: 1em;
   }
+
 
   span{
     border: 1.5px solid #7d97ad;
@@ -144,6 +169,7 @@ p {
     margin: 0 .75em .75em .75em;
     border-radius: 2px;
   }
+
 
   .projects-container {
     display: flex;
@@ -159,18 +185,20 @@ p {
     align-items: center;
   }
 
+
   .fab {
     font-family: "Font Awesome 5 Brands";
     color: black;
     font-size: 1.5em;
   }
 
+
   .fas {
     color: black;
     font-size: 1.5em;
   }
-
 }
+
 
 @media screen and (min-width: 801px) {
   .profile-pic {
@@ -181,10 +209,12 @@ p {
     display: flex;
   }
 
+
   .header-container {
     display: flex;
     padding: 3em;
   }
+
 
   span {
     border: 1.5px solid #7d97ad;
@@ -196,18 +226,22 @@ p {
     border-radius: 2px;
   }
 
+
   h1 {
     font-size: 4em;
   }
+
 
   h3 {
     font-size: 2em;
   }
 
+
   .projects-container {
     display: flex;
     justify-content: center;
   }
+
 
   .project-wrapper {
     width: 33%;
@@ -217,13 +251,16 @@ p {
     align-items: center;
   }
 
+
   .project-img {
     width: 80%;
   }
 
+
   .featured {
     padding-left: 3em;
   }
+
 
   .fab {
     font-family: "Font Awesome 5 Brands";
@@ -231,10 +268,12 @@ p {
     font-size: 1.5em;
   }
 
+
   .fas {
     color: black;
     font-size: 1.5em;
   }
+  
 
   .icons {
     margin-bottom: 1.5em;
